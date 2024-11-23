@@ -19,12 +19,12 @@ def random_joke():
         if joke_data.get("type") == "single":
             print(f"Blague : {joke_data['joke']}")
         else:
-            print("Aucune blague trouvée.")
+            print("No joke found.")
     except requests.RequestException as e:
         print(f"Erreur lors de la requête API : {e}")
     except ValueError as e:
-        print(f"Erreur lors du traitement des données reçues : {e}")
+        print(f"Error no data received : {e}")
 
 if __name__ == "__main__":
-    print("Voici une blague aléatoire :")
+    print("Here is a random joke :")
     random_joke()

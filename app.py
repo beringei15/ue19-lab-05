@@ -21,7 +21,7 @@ def random_joke():
         else:
             print("No joke found.")
     except requests.RequestException as e:
-        print(f"Erreur lors de la requête API : {e}")
+        print(f"Error during API request : {e}")
     except ValueError as e:
         print(f"Error no data received : {e}")
 

@@ -1,5 +1,5 @@
 # ue19-lab-05
-# Application Python utilisant une Jokes API pour afficher une blague en Anglais
+# Application Python utilisant JokesAPI pour afficher une blague en Anglais
 
 Bienvenue dans ue19-lab-05, une application Python qui interroge JokesAPI pour récupérer et afficher une blague. Ce projet est conçu pour être simple à utiliser et facilement extensible grâce à Docker.
 

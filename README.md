@@ -20,18 +20,18 @@ Assurez-vous d'avoir les éléments suivants installés :
 # Installation
 
 # Étape 1 : Cloner le repository
-git clone https://github.com/votre-utilisateur/ue19-lab-05.git
-cd ue19-lab-05
+- git clone https://github.com/votre-utilisateur/ue19-lab-05.git
+- cd ue19-lab-05
 
 # Étape 2 : Installer les dépendances
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Utilisation
-python app.py
+- python app.py
 
 # Lancer l'application avec Docker
 1. Construire l'image Docker :
-docker build -t api-app .
+- docker build -t api-app .
 
 2. Exécuter le conteneur :
-docker run --rm api-app
+- docker run --rm api-app

@@ -4,9 +4,9 @@
 Bienvenue dans ue19-lab-05, une application Python qui interroge JokesAPI pour récupérer et afficher une blague. Ce projet est conçu pour être simple à utiliser et facilement extensible grâce à Docker.
 
 # Fonctionnalités
-Interroge JokesAPI : Utilise la bibliothèque requests pour récupérer des données de l'API et afficher la blague.
-Conteneurisation avec Docker : L'application peut être exécutée dans un environnement Dockerisé, garantissant portabilité et cohérence.
-Facile à installer et à utiliser : Fournit un fichier requirements.txt pour gérer les dépendances et un fichier Dockerfile pour l'intégration dans Docker.
+- Interroge JokesAPI : Utilise la bibliothèque requests pour récupérer des données de l'API et afficher la blague.
+- Conteneurisation avec Docker : L'application peut être exécutée dans un environnement Dockerisé, garantissant portabilité et cohérence.
+- Facile à installer et à utiliser : Fournit un fichier requirements.txt pour gérer les dépendances et un fichier Dockerfile pour l'intégration dans Docker.
 
 # Prérequis
 
